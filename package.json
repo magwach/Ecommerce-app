@@ -4,10 +4,10 @@
   "description": "",
   "main": "./backend/server.js",
   "scripts": {
-    "start": "NODE_ENV=production  node backend/server.js",
+    "start": "NODE_ENV=production node backend/server.js",
     "dev": "NODE_ENV=production nodemon ./backend/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm install && npm install --prefix frontend && npm build --prefix frontend"
+    "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
